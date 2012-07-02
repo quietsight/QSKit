@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94DD693B15A1AAF0001EC45C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693A15A1AAF0001EC45C /* UIKit.framework */; };
+		94DD693D15A1AAF0001EC45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693C15A1AAF0001EC45C /* Foundation.framework */; };
+		94DD693F15A1AAF0001EC45C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693E15A1AAF0001EC45C /* CoreGraphics.framework */; };
+		94DD694515A1AAF0001EC45C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94DD694315A1AAF0001EC45C /* InfoPlist.strings */; };
+		94DD694715A1AAF0001EC45C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD694615A1AAF0001EC45C /* main.m */; };
+		94DD694B15A1AAF0001EC45C /* QSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD694A15A1AAF0001EC45C /* QSAppDelegate.m */; };
+		94DD694E15A1AAF0001EC45C /* QSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD694D15A1AAF0001EC45C /* QSViewController.m */; };
+		94DD695115A1AAF1001EC45C /* QSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94DD694F15A1AAF1001EC45C /* QSViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94DD693615A1AAF0001EC45C /* QSKit-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QSKit-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD693A15A1AAF0001EC45C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		94DD693C15A1AAF0001EC45C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		94DD693E15A1AAF0001EC45C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94DD694215A1AAF0001EC45C /* QSKit-Test-Info.plist */ = {isa = PBXFileReference; path = "QSKit-Test-Info.plist"; sourceTree = "<group>"; };
+		94DD694415A1AAF0001EC45C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		94DD694615A1AAF0001EC45C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94DD694815A1AAF0001EC45C /* QSKit-Test-Prefix.pch */ = {isa = PBXFileReference; path = "QSKit-Test-Prefix.pch"; sourceTree = "<group>"; };
+		94DD694915A1AAF0001EC45C /* QSAppDelegate.h */ = {isa = PBXFileReference; path = QSAppDelegate.h; sourceTree = "<group>"; };
+		94DD694A15A1AAF0001EC45C /* QSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSAppDelegate.m; sourceTree = "<group>"; };
+		94DD694C15A1AAF0001EC45C /* QSViewController.h */ = {isa = PBXFileReference; path = QSViewController.h; sourceTree = "<group>"; };
+		94DD694D15A1AAF0001EC45C /* QSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSViewController.m; sourceTree = "<group>"; };
+		94DD695015A1AAF1001EC45C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QSViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DD693315A1AAF0001EC45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD693B15A1AAF0001EC45C /* UIKit.framework in Frameworks */,
+				94DD693D15A1AAF0001EC45C /* Foundation.framework in Frameworks */,
+				94DD693F15A1AAF0001EC45C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94DD692B15A1AAF0001EC45C = {
+			isa = PBXGroup;
+			children = (
+				94DD694015A1AAF0001EC45C /* QSKit-Test */,
+				94DD693915A1AAF0001EC45C /* Frameworks */,
+				94DD693715A1AAF0001EC45C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94DD693715A1AAF0001EC45C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DD693615A1AAF0001EC45C /* QSKit-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DD693915A1AAF0001EC45C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94DD693A15A1AAF0001EC45C /* UIKit.framework */,
+				94DD693C15A1AAF0001EC45C /* Foundation.framework */,
+				94DD693E15A1AAF0001EC45C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94DD694015A1AAF0001EC45C /* QSKit-Test */ = {
+			isa = PBXGroup;
+			children = (
+				94DD694915A1AAF0001EC45C /* QSAppDelegate.h */,
+				94DD694A15A1AAF0001EC45C /* QSAppDelegate.m */,
+				94DD694C15A1AAF0001EC45C /* QSViewController.h */,
+				94DD694D15A1AAF0001EC45C /* QSViewController.m */,
+				94DD694F15A1AAF1001EC45C /* QSViewController.xib */,
+				94DD694115A1AAF0001EC45C /* Supporting Files */,
+			);
+			path = "QSKit-Test";
+			sourceTree = "<group>";
+		};
+		94DD694115A1AAF0001EC45C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94DD694215A1AAF0001EC45C /* QSKit-Test-Info.plist */,
+				94DD694315A1AAF0001EC45C /* InfoPlist.strings */,
+				94DD694615A1AAF0001EC45C /* main.m */,
+				94DD694815A1AAF0001EC45C /* QSKit-Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DD693515A1AAF0001EC45C /* QSKit-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD695415A1AAF1001EC45C /* Build configuration list for PBXNativeTarget "QSKit-Test" */;
+			buildPhases = (
+				94DD693215A1AAF0001EC45C /* Sources */,
+				94DD693315A1AAF0001EC45C /* Frameworks */,
+				94DD693415A1AAF0001EC45C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QSKit-Test";
+			productName = "QSKit-Test";
+			productReference = 94DD693615A1AAF0001EC45C /* QSKit-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DD692D15A1AAF0001EC45C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Quiet Sight Inc.";
+			};
+			buildConfigurationList = 94DD693015A1AAF0001EC45C /* Build configuration list for PBXProject "QSKit-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 94DD692B15A1AAF0001EC45C;
+			productRefGroup = 94DD693715A1AAF0001EC45C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DD693515A1AAF0001EC45C /* QSKit-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DD693415A1AAF0001EC45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD694515A1AAF0001EC45C /* InfoPlist.strings in Resources */,
+				94DD695115A1AAF1001EC45C /* QSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DD693215A1AAF0001EC45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD694715A1AAF0001EC45C /* main.m in Sources */,
+				94DD694B15A1AAF0001EC45C /* QSAppDelegate.m in Sources */,
+				94DD694E15A1AAF0001EC45C /* QSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94DD694315A1AAF0001EC45C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD694415A1AAF0001EC45C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		94DD694F15A1AAF1001EC45C /* QSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD695015A1AAF1001EC45C /* en */,
+			);
+			name = QSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DD695215A1AAF1001EC45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94DD695315A1AAF1001EC45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DD695515A1AAF1001EC45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QSKit-Test/QSKit-Test-Prefix.pch";
+				INFOPLIST_FILE = "QSKit-Test/QSKit-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		94DD695615A1AAF1001EC45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QSKit-Test/QSKit-Test-Prefix.pch";
+				INFOPLIST_FILE = "QSKit-Test/QSKit-Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DD693015A1AAF0001EC45C /* Build configuration list for PBXProject "QSKit-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD695215A1AAF1001EC45C /* Debug */,
+				94DD695315A1AAF1001EC45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DD695415A1AAF1001EC45C /* Build configuration list for PBXNativeTarget "QSKit-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD695515A1AAF1001EC45C /* Debug */,
+				94DD695615A1AAF1001EC45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DD692D15A1AAF0001EC45C /* Project object */;
+}
