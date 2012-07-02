@@ -1,0 +1,6 @@
+[submodule "SSNetworking"]
+	path = SSNetworking
+	url = git@github.com:skylarsch/SSNetworking.git
+[submodule "QSID"]
+	path = QSID
+	url = git@github.com:skylarsch/QSID.git
