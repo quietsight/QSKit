@@ -72,7 +72,7 @@
  *  Initalizers
  */
 + (id)dispatchWithQueueName:(NSString *)queueName {
-    QSDispatch *d = [[QSDispatch alloc] initWithQueueName:queueName];
+    QSDispatch *d = [[self alloc] initWithQueueName:queueName];
     return d;
 }
 - (id)initWithQueueName:(NSString *)queueName {
@@ -83,7 +83,7 @@
     return self;
 }
 + (id)dispatchWithQueuePriority:(QSDispatch_Priority)priority {
-    QSDispatch *d = [[QSDispatch alloc] initWithQueuePriority:priority];
+    QSDispatch *d = [[self alloc] initWithQueuePriority:priority];
     return d;
 }
 - (id)initWithQueuePriority:(QSDispatch_Priority)priority {

@@ -64,21 +64,21 @@ typedef void (^DispatchCompletionHandler)(QSDispatch *dispatch, BOOL completed);
 
 /** Add dispatch block to queue
  
- _block_ - declared as `typedef void (^DispatchBlock)(void);`
+ @param block declared as `typedef void (^DispatchBlock)(void);`
  
  */
 - (void)addDispatchBlock:(DispatchBlock)block;
 
 /** Add a block to the queue and run the queue
  
- _block_ - declared as `typedef void (^DispatchBlock)(void);`
+ @param block declared as `typedef void (^DispatchBlock)(void);`
  
  */
 - (void)addDispatchBlockRun:(DispatchBlock)block;
 
 /** Remove a block from the queue
  
- _block_ - declared as `typedef void (^DispatchBlock)(void);`
+ @param block declared as `typedef void (^DispatchBlock)(void);`
  
  */
 - (void)removeDispatchBlock:(DispatchBlock)block;

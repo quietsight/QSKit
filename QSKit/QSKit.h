@@ -14,6 +14,7 @@
 #import "QSDispatch.h"
 #import "QSDataManager.h"
 
+#import "QSCrypto.h"
 
 
 #pragma mark - Additions
@@ -24,3 +25,4 @@
 #import "NSDictionary+QSAdditions.h"
 #import "NSArray+QSAdditions.h"
 #import "UIView+QSAdditions.h"
+#import "UIImage+QSAdditions.h"

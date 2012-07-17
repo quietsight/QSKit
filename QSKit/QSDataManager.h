@@ -12,21 +12,23 @@
 #import "NSDictionary+QSAdditions.h"
 #import "NSArray+QSAdditions.h"
 
+#define QS_DATA_MANAGER_BSON_EXT @"qs.bson"
+
 @interface QSDataManager : QSObject
 
 
 + (NSString *)documentsDirectory;
 + (NSString *)filePathForFileName:(NSString *)fileName;
 + (BOOL)fileExists:(NSString *)fileName;
-+ (void)deleteFileNamed:(NSString *)fileName error:(NSError **)error;
++ (BOOL)deleteFileNamed:(NSString *)fileName error:(NSError **)error;
 + (NSString *)fileWithName:(NSString *)name error:(NSError **)error;
 
-+ (void)writeBsonToDisk:(NSData *)data name:(NSString *)name error:(NSError **)error;
-+ (void)deleteBsonFromDiskName:(NSString *)name error:(NSError **)error;
++ (BOOL)writeBsonToDisk:(NSData *)data name:(NSString *)name error:(NSError **)error;
++ (BOOL)deleteBsonFromDiskName:(NSString *)name error:(NSError **)error;
 + (NSData *)readBsonName:(NSString *)name error:(NSError **)error;
 
-+ (void)writeObject:(id)object name:(NSString *)name error:(NSError **)error;
++ (BOOL)writeObject:(id)object name:(NSString *)name error:(NSError **)error;
 + (id)objectWithName:(NSString *)name error:(NSError **)error;
-+ (void)deleteObjectWithName:(NSString *)name error:(NSError **)error;
++ (BOOL)deleteObjectWithName:(NSString *)name error:(NSError **)error;
 
 @end

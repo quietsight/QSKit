@@ -12,8 +12,15 @@
 #if 1
     #define QSLog(...) NSLog(__VA_ARGS__);
 #else
-    #define QSLog(...) /* ... */
+    #define QSLog(...) /* __VA_ARGS__ */
 #endif
+
+#if TARGET_IPHONE_SIMULATOR
+    #define QSSimulatorLog(...) QSLog(__VA_ARGS__)
+#else
+    #define QSSimulatorLog(...) /* __VA_ARGS__ */
+#endif
+
 #define LOG_FUNCTION() QSLog(@"%s",__PRETTY_FUNCTION__);
 #define varDump(arg) QSLog(@"%s Dumping:\n%@",__PRETTY_FUNCTION__,arg);
 #define __deprecated__ __attribute__((deprecated))

@@ -20,7 +20,8 @@
     NSUInteger intLength = strlen(objPointer);
     int intCurrent;
     int i = 0, j = 0, k;
-    unsigned char * objResult;
+//    unsigned char * objResult;
+    char * objResult;
     objResult = calloc(intLength, sizeof(char));
     while ( ((intCurrent = *objPointer++) != '\0') && (intLength-- > 0) ) {
         if (intCurrent == '=') {

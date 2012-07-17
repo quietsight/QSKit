@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9433093415B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433093315B4FD27001CC2BD /* NSNumber+QSAdditions.m */; };
+		9433093515B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433093315B4FD27001CC2BD /* NSNumber+QSAdditions.m */; };
+		9433093E15B4FE8D001CC2BD /* QSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433093D15B4FE8C001CC2BD /* QSCrypto.m */; };
+		9433093F15B4FE8D001CC2BD /* QSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433093D15B4FE8C001CC2BD /* QSCrypto.m */; };
+		9433094215B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */; };
+		9433094315B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */; };
 		94DD693B15A1AAF0001EC45C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693A15A1AAF0001EC45C /* UIKit.framework */; };
 		94DD693D15A1AAF0001EC45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693C15A1AAF0001EC45C /* Foundation.framework */; };
 		94DD693F15A1AAF0001EC45C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693E15A1AAF0001EC45C /* CoreGraphics.framework */; };
@@ -98,6 +104,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9433093215B4FD27001CC2BD /* NSNumber+QSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+QSAdditions.h"; sourceTree = "<group>"; };
+		9433093315B4FD27001CC2BD /* NSNumber+QSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+QSAdditions.m"; sourceTree = "<group>"; };
+		9433093C15B4FE8C001CC2BD /* QSCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSCrypto.h; sourceTree = "<group>"; };
+		9433093D15B4FE8C001CC2BD /* QSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCrypto.m; sourceTree = "<group>"; };
+		9433094015B4FF3F001CC2BD /* UIImage+QSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QSAdditions.h"; sourceTree = "<group>"; };
+		9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QSAdditions.m"; sourceTree = "<group>"; };
 		94DD693615A1AAF0001EC45C /* QSKit-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QSKit-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD693A15A1AAF0001EC45C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94DD693C15A1AAF0001EC45C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -280,6 +292,8 @@
 				94DD69B215A1B127001EC45C /* QSDispatch.m */,
 				94DD69D015A1C3BF001EC45C /* QSDataManager.h */,
 				94DD69D115A1C3BF001EC45C /* QSDataManager.m */,
+				9433093C15B4FE8C001CC2BD /* QSCrypto.h */,
+				9433093D15B4FE8C001CC2BD /* QSCrypto.m */,
 			);
 			path = QSKit;
 			sourceTree = "<group>";
@@ -326,6 +340,10 @@
 				94DD69C215A1BEF5001EC45C /* NSArray+QSAdditions.m */,
 				94DD69CC15A1C0D5001EC45C /* UIView+QSAdditions.h */,
 				94DD69CD15A1C0D5001EC45C /* UIView+QSAdditions.m */,
+				9433093215B4FD27001CC2BD /* NSNumber+QSAdditions.h */,
+				9433093315B4FD27001CC2BD /* NSNumber+QSAdditions.m */,
+				9433094015B4FF3F001CC2BD /* UIImage+QSAdditions.h */,
+				9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -429,6 +447,9 @@
 				94DD69C315A1BEF5001EC45C /* NSArray+QSAdditions.m in Sources */,
 				94DD69CE15A1C0D6001EC45C /* UIView+QSAdditions.m in Sources */,
 				94DD69D215A1C3C0001EC45C /* QSDataManager.m in Sources */,
+				9433093415B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */,
+				9433093E15B4FE8D001CC2BD /* QSCrypto.m in Sources */,
+				9433094215B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +472,9 @@
 				94DD69C415A1BEF5001EC45C /* NSArray+QSAdditions.m in Sources */,
 				94DD69CF15A1C0D6001EC45C /* UIView+QSAdditions.m in Sources */,
 				94DD69D315A1C3C0001EC45C /* QSDataManager.m in Sources */,
+				9433093515B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */,
+				9433093F15B4FE8D001CC2BD /* QSCrypto.m in Sources */,
+				9433094315B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +612,7 @@
 				94DD695615A1AAF1001EC45C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94DD697415A1AB51001EC45C /* Build configuration list for PBXNativeTarget "QSKit-Lib" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +621,7 @@
 				94DD697615A1AB51001EC45C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
