@@ -11,7 +11,16 @@
 
 @interface NSArray (QSAdditions)
 
+/** Write JSON
+ 
+ Returns an JSON string representation of the object
+ */
 - (NSString *)json;
+
+/** Write JSON
+ 
+ Returns an JSON binary representation or the object
+ */
 - (NSData *)binaryJson;
 
 

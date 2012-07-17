@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SSNetworkRequest.h"
+
 
 @class QSViewController;
 
-@interface QSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface QSAppDelegate : UIResponder <UIApplicationDelegate, SSNetworkRequestDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -14,14 +14,21 @@
 
 @implementation QSAppDelegate
 
+- (void)request:(SSNetworkRequest *)request finishedWithResponse:(SSNetworkResponse *)response {
+    if (response.responseCode == HTTP_RESPONSE_200) {
+        NSArray *json = response.JSON;
+        for (id folder in json) {
+            QSLog(@"%@", [folder objectForKey:@"name"]);
+        }
+    }
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[QSViewController alloc] initWithNibName:@"QSViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
-    
-    
     
     return YES;
 }

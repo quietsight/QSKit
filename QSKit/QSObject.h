@@ -11,11 +11,24 @@
 
 @interface QSObject : NSObject
 
-/**
- *  Class methods for parsing/writing JSON
+/** Write JSON
+ 
+ Returns a JSON string representation of the passed object
  */
 + (NSString *)writeJSON:(id)object;
-+ (id)parseJSON:(id)json;
+
+/** Write JSON
+ 
+ Returns a JSON data representation of the passed object
+ */
 + (NSData *)writeBinaryJSON:(id)object;
+
+/** Parse JSON
+ 
+ Parse the JSON string/data
+ 
+ Returns an NSArray or NSDictionary
+ */
++ (id)parseJSON:(id)json;
 
 @end

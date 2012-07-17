@@ -10,6 +10,10 @@
 
 @interface UIColor (QSAdditions)
 
+/** Returns an RGB Color
+ 
+ 
+ */
 + (UIColor *)rgbColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
 
 @end

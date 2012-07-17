@@ -13,8 +13,15 @@
 
 @interface NSData (QSAdditions)
 
+/** base64 encode the data object
+ 
+ */
 - (NSString *)base64Encode;
 
+/** parse JSON
+ 
+ Returns an NSDictionary or NSArray based on the the JSON data passed
+ */
 - (id)json;
 
 @end

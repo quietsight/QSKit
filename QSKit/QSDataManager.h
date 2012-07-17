@@ -13,6 +13,8 @@
 #import "NSArray+QSAdditions.h"
 
 @interface QSDataManager : QSObject
+
+
 + (NSString *)documentsDirectory;
 + (NSString *)filePathForFileName:(NSString *)fileName;
 + (BOOL)fileExists:(NSString *)fileName;

@@ -28,7 +28,11 @@
     });
 }
 
-
++ (void)dispatchMainQueue:(DispatchBlock)block {
+    dispatch_async(dispatch_get_main_queue(), ^{
+        block();
+    });
+}
 
 - (void)addDispatchBlock:(DispatchBlock)block {
     if (_dispatchBlocks == nil) {
@@ -104,7 +108,12 @@
     }
     return self;
 }
-
+- (id)initWithQueue:(dispatch_queue_t)queue {
+    if (self = [super init]) {
+        _queue = queue;
+    }
+    return self;
+}
 
 
 @end
