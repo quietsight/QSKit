@@ -14,11 +14,13 @@
 
 @implementation QSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+//    QSUIView *view = [[QSUIView alloc] initWithFrame:CGRectMake(30, 30, 100, 100)];
+//    view.backgroundColor = [UIColor yellowColor];
+//    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning

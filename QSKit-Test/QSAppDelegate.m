@@ -15,10 +15,10 @@
 @implementation QSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[QSViewController alloc] initWithNibName:@"QSViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.viewController = [[QSViewController alloc] initWithNibName:@"QSViewController" bundle:nil];
+//    self.window.rootViewController = self.viewController;
+//    [self.window makeKeyAndVisible];
     
     
     

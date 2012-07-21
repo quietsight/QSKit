@@ -26,3 +26,8 @@
 #import "NSArray+QSAdditions.h"
 #import "UIView+QSAdditions.h"
 #import "UIImage+QSAdditions.h"
+
+
+
+#pragma mark - UIStuff
+#import "QSUIView.h"

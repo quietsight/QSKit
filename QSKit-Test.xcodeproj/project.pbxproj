@@ -13,6 +13,8 @@
 		9433093F15B4FE8D001CC2BD /* QSCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433093D15B4FE8C001CC2BD /* QSCrypto.m */; };
 		9433094215B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */; };
 		9433094315B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */; };
+		9497EC4515BAB2000013C31A /* QSUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9497EC4415BAB2000013C31A /* QSUIView.m */; };
+		9497EC4615BAB2000013C31A /* QSUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9497EC4415BAB2000013C31A /* QSUIView.m */; };
 		94DD693B15A1AAF0001EC45C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693A15A1AAF0001EC45C /* UIKit.framework */; };
 		94DD693D15A1AAF0001EC45C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693C15A1AAF0001EC45C /* Foundation.framework */; };
 		94DD693F15A1AAF0001EC45C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD693E15A1AAF0001EC45C /* CoreGraphics.framework */; };
@@ -110,6 +112,8 @@
 		9433093D15B4FE8C001CC2BD /* QSCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSCrypto.m; sourceTree = "<group>"; };
 		9433094015B4FF3F001CC2BD /* UIImage+QSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+QSAdditions.h"; sourceTree = "<group>"; };
 		9433094115B4FF3F001CC2BD /* UIImage+QSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QSAdditions.m"; sourceTree = "<group>"; };
+		9497EC4315BAB2000013C31A /* QSUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSUIView.h; sourceTree = "<group>"; };
+		9497EC4415BAB2000013C31A /* QSUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSUIView.m; sourceTree = "<group>"; };
 		94DD693615A1AAF0001EC45C /* QSKit-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QSKit-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD693A15A1AAF0001EC45C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		94DD693C15A1AAF0001EC45C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -187,6 +191,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9497EC4115BAB1F50013C31A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9497EC4315BAB2000013C31A /* QSUIView.h */,
+				9497EC4415BAB2000013C31A /* QSUIView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		94DD692B15A1AAF0001EC45C = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +296,7 @@
 		94DD697A15A1AB79001EC45C /* QSKit */ = {
 			isa = PBXGroup;
 			children = (
+				9497EC4115BAB1F50013C31A /* UI */,
 				94DD69A315A1AECD001EC45C /* Additions */,
 				94DD697B15A1AB91001EC45C /* QSKit.h */,
 				94DD699015A1AC98001EC45C /* QSKit_Helper.h */,
@@ -450,6 +464,7 @@
 				9433093415B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */,
 				9433093E15B4FE8D001CC2BD /* QSCrypto.m in Sources */,
 				9433094215B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */,
+				9497EC4515BAB2000013C31A /* QSUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +490,7 @@
 				9433093515B4FD27001CC2BD /* NSNumber+QSAdditions.m in Sources */,
 				9433093F15B4FE8D001CC2BD /* QSCrypto.m in Sources */,
 				9433094315B4FF40001CC2BD /* UIImage+QSAdditions.m in Sources */,
+				9497EC4615BAB2000013C31A /* QSUIView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
