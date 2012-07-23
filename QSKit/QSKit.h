@@ -16,7 +16,6 @@
 
 #import "QSCrypto.h"
 
-
 #pragma mark - Additions
 #import "UIViewController+QSAdditions.h"
 #import "UIColor+QSAdditions.h"

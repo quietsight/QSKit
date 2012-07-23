@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'QSKit-Test' target in the 'QSKit-Test' project
+// Prefix header for all source files of the 'QSKit-iOS-Tests' target in the 'QSKit-iOS-Tests' project
 //
 
 #import <Availability.h>
