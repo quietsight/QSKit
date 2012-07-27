@@ -18,4 +18,9 @@
 }
 
 
++ (id)resizeableImageNamed:(NSString *)imageName edgeInsets:(UIEdgeInsets)edgeInsets {
+    return [[self imageNamed:imageName] resizableImageWithCapInsets:edgeInsets];
+}
+
+
 @end

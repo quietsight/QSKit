@@ -14,4 +14,6 @@
 - (NSData *)pngRepresentation;
 - (NSString *)base64Representation;
 
++ (id)resizeableImageNamed:(NSString *)imageName edgeInsets:(UIEdgeInsets)edgeInsets;
+
 @end

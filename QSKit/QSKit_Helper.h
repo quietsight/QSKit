@@ -9,16 +9,19 @@
 #import <CoreGraphics/CoreGraphics.h>
 
 #pragma mark - Defines
-#if 1
-    #define QSLog(...) NSLog(__VA_ARGS__);
+
+#define _CUSTOM_LOG(fmt, ...) printf("%s\n",[[NSString stringWithFormat:@"%@:%i > %@",[[NSString stringWithFormat:@"%s",__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:fmt, ##__VA_ARGS__]] cStringUsingEncoding:NSUTF8StringEncoding])
+static inline void _DO_NOTHING(BOOL b, ...) {}
+#ifndef QS_QUIET_LOG
+    #define QSLog(fmt, ...) _CUSTOM_LOG(fmt, ##__VA_ARGS__);
 #else
-    #define QSLog(...) /* __VA_ARGS__ */
+    #define QSLog(fmt, ...) _DO_NOTHING(YES, ##__VA_ARGS__);
 #endif
 
 #if TARGET_IPHONE_SIMULATOR
-    #define QSSimulatorLog(...) QSLog(__VA_ARGS__)
+    #define QSSimulatorLog(fmt, ...) QSLog(fmt, ##__VA_ARGS__)
 #else
-    #define QSSimulatorLog(...) /* __VA_ARGS__ */
+    #define QSSimulatorLog(fmt, ...) /* ##__VA_ARGS__ */
 #endif
 
 #define LOG_FUNCTION() QSLog(@"%s",__PRETTY_FUNCTION__);
@@ -65,3 +68,8 @@ static inline CGFloat DegreesToRadians(CGFloat deg) {
 static inline CGFloat RadiansToDegrees(CGFloat rad) {
     return rad * (180 / M_PI);
 }
+
+
+#define EQUAL_INSETS(inset) UIEdgeInsetsMake(inset, inset, inset, inset)
+
+

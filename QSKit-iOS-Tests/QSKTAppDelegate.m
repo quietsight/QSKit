@@ -20,12 +20,8 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-//    QSKeychainCredential *c = [QSKeychainCredential credentialWithUsername:@"skylar" password:@"test" identifier:@"my_user"];
-//    c.encriptionKey = @"test_key";
-//    [QSKeychain saveCredential:c];
-    
-    QSKeychainCredential *saved = [QSKeychain credentialWithIdentifier:@"my_user" key:@"test_key"];
-    [saved dump];
+    NSArray *a = @[ @1, @2, @3, @4, @5.5 ];
+    varDump(a);
     
     return YES;
 }

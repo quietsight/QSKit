@@ -43,6 +43,12 @@
     return c;
 }
 
++ (BOOL)deleteCredentialWithIdentifier:(NSString *)identifier {
+    NSMutableDictionary *store = [[[QSDataManager readBsonName:QSKEYCHAIN_FILE_NAME error:nil] json] mutableCopy];
+    [store removeObjectForKey:identifier];
+    return [QSDataManager writeBsonToDisk:[store binaryJson] name:QSKEYCHAIN_FILE_NAME error:nil];
+}
+
 + (BOOL)compareCredentialToStore:(QSKeychainCredential *)credential {
     QSKeychainCredential *c = [QSKeychain credentialWithIdentifier:credential.identifier key:nil];
     if (c == nil) {

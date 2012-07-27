@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface UIView (QSAdditions)
 
@@ -39,5 +40,8 @@
  
  */
 - (void)setFrameHeight:(CGFloat)height;
+
+
+- (void)borderWithColor:(UIColor *)color width:(CGFloat)width;
 
 @end
