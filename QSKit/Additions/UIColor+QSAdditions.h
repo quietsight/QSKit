@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIColor+QSAdditions.h
 //  QSKit-Test
@@ -17,3 +18,4 @@
 + (UIColor *)rgbColorWithRed:(NSUInteger)red green:(NSUInteger)green blue:(NSUInteger)blue alpha:(CGFloat)alpha;
 
 @end
+#endif

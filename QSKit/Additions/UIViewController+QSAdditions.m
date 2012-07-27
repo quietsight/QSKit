@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIViewController+QSAdditions.m
 //  QSKit-Test
@@ -18,3 +19,5 @@
 }
 
 @end
+
+#endif

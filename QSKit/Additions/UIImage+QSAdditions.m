@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIImage+QSAdditions.m
 //  QSKit-Test
@@ -24,3 +25,5 @@
 
 
 @end
+
+#endif

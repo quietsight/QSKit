@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIImage+QSAdditions.h
 //  QSKit-Test
@@ -17,3 +18,5 @@
 + (id)resizeableImageNamed:(NSString *)imageName edgeInsets:(UIEdgeInsets)edgeInsets;
 
 @end
+
+#endif

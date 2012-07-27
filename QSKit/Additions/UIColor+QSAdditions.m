@@ -1,3 +1,5 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
+
 //
 //  UIColor+QSAdditions.m
 //  QSKit-Test
@@ -15,3 +17,5 @@
 }
 
 @end
+
+#endif

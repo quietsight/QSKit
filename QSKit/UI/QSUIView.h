@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  QSUIView.h
 //  QSKit-Test
@@ -15,3 +16,5 @@ typedef void (^QSUIViewDrawRectBlock)(CGContextRef context, CGRect rect);
 
 
 @end
+
+#endif
