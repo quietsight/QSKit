@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIImage+QSAdditions.h
 //  QSKit-Test
@@ -15,3 +16,5 @@
 - (NSString *)base64Representation;
 
 @end
+
+#endif

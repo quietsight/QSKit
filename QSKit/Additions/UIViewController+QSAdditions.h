@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIViewController+QSAdditions.h
 //  QSKit-Test
@@ -24,3 +25,5 @@
 - (IBAction)dismissModal:(id)sender;
 
 @end
+
+#endif

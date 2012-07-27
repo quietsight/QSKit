@@ -1,3 +1,4 @@
+#if TARGET_OS_PHONE || TARGET_IPHONE_SIMULATOR
 //
 //  UIView+QSAdditions.h
 //  QSKit-Test
@@ -41,3 +42,5 @@
 - (void)setFrameHeight:(CGFloat)height;
 
 @end
+
+#endif
